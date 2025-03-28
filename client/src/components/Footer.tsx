@@ -6,7 +6,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="py-4 sm:py-6 px-4 sm:px-10 text-center text-gray-600 text-xs sm:text-sm">
+    <footer className="py-6 px-6 sm:px-10 text-center text-gray-600 text-sm">
       <p className="font-dynapuff">
         Brought to you by{" "}
         <a 
@@ -19,10 +19,8 @@ const Footer = () => {
         </a>
       </p>
       <Button 
-        className="mt-2 rounded-full text-xs px-3 py-1 sm:text-sm sm:px-4 sm:py-2 font-dynapuff"
+        className="mt-2 rounded-full font-dynapuff"
         onClick={openFeedbackForm}
-        variant="outline"
-        size="sm"
       >
         Submit feedback
       </Button>
