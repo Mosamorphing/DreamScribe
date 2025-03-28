@@ -34,15 +34,14 @@ const HeroSection = ({ activeCategory, setActiveCategory }: HeroSectionProps) =>
     "Arts",
     "Finance",
     "Sports",
-    "Governance",
-    "Technology"
+    "Governance"
   ];
 
   return (
     <section className="py-12 px-6 sm:px-10">
       <div className="max-w-3xl mx-auto text-center">
-        <h1 className="text-3xl sm:text-5xl font-regular mb-4 font-hedvig">Share your dreams</h1>
-        <h2 className="text-3xl sm:text-5xl font-regular mb-6 font-hedvig">Find your collaborators</h2>
+        <h1 className="text-3xl sm:text-5xl font-regular mb-4 font-hedvig">Share your dreams,</h1>
+        <h2 className="text-3xl sm:text-5xl font-regular mb-6 font-hedvig">Meet your collaborators.</h2>
         <p className="text-gray-700 mb-8 max-w-2xl mx-auto">
           Connect with dreamers and turn your visions into reality. From 
           daydreams to night dreams, share ideas and find partners to help materialize them.
