@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const openGoogleForm = () => {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSe85pmnu8KoMFK-S2ATfzx9lu-U_RplOldi2OB6UnAR55pYjQ/viewform?usp=sharing', '_blank');
+    window.open('https://forms.gle/6Rz9GxQpwUKzTrCLA', '_blank');
   };
 
   return (

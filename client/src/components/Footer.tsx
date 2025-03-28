@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   const openFeedbackForm = () => {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSe85pmnu8KoMFK-S2ATfzx9lu-U_RplOldi2OB6UnAR55pYjQ/viewform?usp=sharing', '_blank');
+    window.open('https://forms.gle/TtSGf55r78Ey4z1Q7', '_blank');
   };
 
   return (
