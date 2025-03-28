@@ -7,7 +7,17 @@ const Footer = () => {
 
   return (
     <footer className="py-6 px-6 sm:px-10 text-center text-gray-600 text-sm">
-      <p className="font-dynapuff">Brought to you by mofasasi</p>
+      <p className="font-dynapuff">
+        Brought to you by{" "}
+        <a 
+          href="https://mosadoluwafasasi.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-primary hover:underline cursor-pointer"
+        >
+          mofasasi
+        </a>
+      </p>
       <Button 
         className="mt-2 rounded-full font-dynapuff"
         onClick={openFeedbackForm}
