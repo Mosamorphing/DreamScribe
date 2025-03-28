@@ -32,31 +32,31 @@ const DreamModal = ({ dream, onClose }: DreamModalProps) => {
         className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto mx-4"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="p-6">
+        <div className="p-4 sm:p-6">
           <div className="flex justify-between items-start mb-4">
             <div>
-              <h2 className="text-xl font-semibold">{dream.title}</h2>
-              <p className="text-sm text-gray-500">{dream.category}</p>
+              <h2 className="text-lg sm:text-xl font-semibold">{dream.title}</h2>
+              <p className="text-xs sm:text-sm text-gray-500">{dream.category}</p>
             </div>
             <button 
               className="text-gray-500 hover:text-gray-700"
               onClick={onClose}
             >
-              <X className="h-6 w-6" />
+              <X className="h-5 w-5 sm:h-6 sm:w-6" />
             </button>
           </div>
-          <div className="prose max-w-none">
+          <div className="prose prose-sm sm:prose max-w-none">
             {dream.content.split('\n\n').map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
           </div>
           <div className="mt-6 pt-4 border-t border-gray-100">
-            <h3 className="text-lg font-medium mb-2">Looking for collaborators in:</h3>
+            <h3 className="text-base sm:text-lg font-medium mb-2">Looking for collaborators in:</h3>
             <div className="flex flex-wrap gap-2">
               {dream.collaborators.map((tag, index) => (
                 <span 
                   key={index} 
-                  className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm"
+                  className="bg-gray-100 text-gray-800 px-2 py-1 sm:px-3 rounded-full text-xs sm:text-sm"
                 >
                   {tag}
                 </span>
