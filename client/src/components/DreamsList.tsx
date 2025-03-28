@@ -8,7 +8,7 @@ type DreamsListProps = {
 
 const DreamsList = ({ dreams, onDreamClick }: DreamsListProps) => {
   return (
-    <section className="pb-16 px-6 sm:px-10">
+    <section className="pb-12 pt-4 px-6 sm:px-10">
       <div className="max-w-3xl mx-auto">
         <h3 className="text-xl font-semibold text-primary mb-6 font-dynapuff">Featured Dreams</h3>
         

@@ -39,7 +39,7 @@ const HeroSection = ({ activeCategory, setActiveCategory }: HeroSectionProps) =>
   ];
 
   return (
-    <section className="py-12 px-6 sm:px-10">
+    <section className="py-8 px-6 sm:px-10">
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-3xl sm:text-5xl font-regular mb-4 font-hedvig">Share your dreams,</h1>
         <h2 className="text-3xl sm:text-5xl font-regular mb-6 font-hedvig">Meet your collaborators.</h2>
@@ -48,7 +48,7 @@ const HeroSection = ({ activeCategory, setActiveCategory }: HeroSectionProps) =>
           daydreams to night dreams, share ideas and find partners to help materialize them.
         </p>
         
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex flex-wrap justify-center gap-4 mb-6">
           {categories.map((category) => (
             <CategoryTab
               key={category}
