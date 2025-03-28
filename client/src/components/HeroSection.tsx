@@ -34,7 +34,8 @@ const HeroSection = ({ activeCategory, setActiveCategory }: HeroSectionProps) =>
     "Arts",
     "Finance",
     "Sports",
-    "Governance"
+    "Governance",
+    "Technology"
   ];
 
   return (
